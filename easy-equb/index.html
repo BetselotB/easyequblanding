@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Easy Equb: save, contribute and win together</title>
+<meta name="description" content="Easy Equb digitizes your equb. Join an equb, contribute each cycle and win by draw. Simple, secure and transparent.">
+<meta name="theme-color" content="#eaeae7">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Icon sprite (2px stroke, round caps, 24 grid) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M22 3H2l8 9.46V19l4 2v-8.54z"/></symbol>
+    <symbol id="i-cycle" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></symbol>
+    <symbol id="i-lang" viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
+    <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18"/><path d="M7 6h1v4"/><path d="m16.71 13.88.7.71-2.82 2.82"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path d="m16 3 4 4-4 4"/><path d="M20 7H4"/><path d="m8 21-4-4 4-4"/><path d="M4 17h16"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ 01 · NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav__bar">
+    <a class="nav__brand" href="#top" aria-label="Easy Equb home">
+      <img src="assets/logo-mark.png" alt="" width="34" height="23">
+      <span>Easy Equb</span>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a class="nav__link" href="#how">How it works</a>
+      <a class="nav__link" href="#features">Features</a>
+      <a class="nav__link" href="#app">The app</a>
+      <a class="nav__link" href="#switch">Why digital</a>
+      <a class="nav__link" href="#faq">FAQs</a>
+    </nav>
+    <div class="nav__actions">
+      <div class="lang" data-lang>
+        <button class="lang__trigger" type="button" aria-expanded="false" aria-haspopup="listbox">
+          <svg class="i"><use href="#i-lang"/></svg><span>EN</span>
+        </button>
+        <ul class="lang__menu" role="listbox">
+          <li role="option" aria-selected="true" class="is-on">English</li>
+          <li role="option" aria-disabled="true" class="is-soon">አማርኛ <small>Soon</small></li>
+        </ul>
+      </div>
+      <a class="btn btn--dark btn--sm nav__cta" href="#get">Download</a>
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg class="i i--open"><use href="#i-menu"/></svg>
+        <svg class="i i--close"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="nav__mobile" hidden>
+    <a href="#how">How it works</a>
+    <a href="#features">Features</a>
+    <a href="#app">The app</a>
+    <a href="#switch">Why digital</a>
+    <a href="#faq">FAQs</a>
+    <a href="#get" class="btn btn--dark">Download</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ 02 · HERO ============ -->
+<section class="hero" id="get">
+  <div class="hero__copy">
+    <h1 class="hero__title" data-in>Save, contribute and win together, all in one app.</h1>
+    <p class="hero__sub" data-in>Join an equb, contribute each cycle and watch the draw. Simple, secure and transparent.</p>
+    <div class="hero__stores" data-in>
+      <a class="store" href="https://play.google.com/store/search?q=Easy%20Equb&amp;c=apps" rel="noopener">
+        <svg class="i i--fill"><use href="#i-play"/></svg>
+        <span class="store__copy"><small>Get it on</small><b>Google Play</b></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__stage" data-in>
+    <!-- orbit of equb cards, behind the phone -->
+    <div class="orbit" aria-hidden="true">
+      <div class="orbit__ring">
+        <article class="eq-card" style="--i:0">
+          <div class="eq-card__top"><span class="cover" style="--c1:#e50000;--c2:#ff6a4d"><svg class="i"><use href="#i-users"/></svg></span><div><h4>Neighbours weekly</h4><div class="avs"><i style="--a:#1d5557">A</i><i style="--a:#e50000">S</i><i style="--a:#8a6d3b">M</i><em>+9</em></div></div><svg class="i"><use href="#i-right"/></svg></div>
+          <p>You pay <b>ETB 50</b> every week.</p>
+          <div class="eq-card__chips"><span><svg class="i"><use href="#i-clock"/></svg>Weekly</span><span>68%</span></div>
+        </article>
+        <article class="eq-card" style="--i:1">
+          <div class="eq-card__top"><span class="cover" style="--c1:#1d5557;--c2:#3b8b8e"><svg class="i"><use href="#i-coins"/></svg></span><div><h4>Office daily</h4><div class="avs"><i style="--a:#e50000">H</i><i style="--a:#1d5557">D</i><i style="--a:#454543">Y</i><em>+7</em></div></div><svg class="i"><use href="#i-right"/></svg></div>
+          <p>You pay <b>ETB 10</b> every day.</p>
+          <div class="eq-card__chips"><span><svg class="i"><use href="#i-clock"/></svg>Daily</span><span>100%</span></div>
+        </article>
+        <article class="eq-card" style="--i:2">
+          <div class="eq-card__top"><span class="cover" style="--c1:#8a6d3b;--c2:#c9a24f"><svg class="i"><use href="#i-home"/></svg></span><div><h4>Family monthly</h4><div class="avs"><i style="--a:#1d5557">T</i><i style="--a:#e50000">B</i><i style="--a:#8a6d3b">L</i><em>+4</em></div></div><svg class="i"><use href="#i-right"/></svg></div>
+          <p>You pay <b>ETB 500</b> every month.</p>
+          <div class="eq-card__chips"><span><svg class="i"><use href="#i-clock"/></svg>Monthly</span><span>40%</span></div>
+        </article>
+        <article class="eq-card" style="--i:3">
+          <div class="eq-card__top"><span class="cover" style="--c1:#e50000;--c2:#ff6a4d"><svg class="i"><use href="#i-gift"/></svg></span><div><h4>Friends bi-weekly</h4><div class="avs"><i style="--a:#454543">N</i><i style="--a:#e50000">E</i><i style="--a:#1d5557">R</i><em>+5</em></div></div><svg class="i"><use href="#i-right"/></svg></div>
+          <p>You pay <b>ETB 100</b> every two weeks.</p>
+          <div class="eq-card__chips"><span><svg class="i"><use href="#i-clock"/></svg>Bi-weekly</span><span>85%</span></div>
+        </article>
+        <article class="eq-card" style="--i:4">
+          <div class="eq-card__top"><span class="cover" style="--c1:#1d5557;--c2:#3b8b8e"><svg class="i"><use href="#i-wallet"/></svg></span><div><h4>Market circle</h4><div class="avs"><i style="--a:#e50000">F</i><i style="--a:#8a6d3b">K</i><i style="--a:#1d5557">G</i><em>+11</em></div></div><svg class="i"><use href="#i-right"/></svg></div>
+          <p>You pay <b>ETB 20</b> every day.</p>
+          <div class="eq-card__chips"><span><svg class="i"><use href="#i-clock"/></svg>Daily</span><span>55%</span></div>
+        </article>
+        <article class="eq-card" style="--i:5">
+          <div class="eq-card__top"><span class="cover" style="--c1:#454543;--c2:#7f7f7e"><svg class="i"><use href="#i-shield"/></svg></span><div><h4>Personal · 100 days</h4><div class="avs"><i style="--a:#e50000">Y</i></div></div><svg class="i"><use href="#i-right"/></svg></div>
+          <p>You save <b>ETB 30</b> every day.</p>
+          <div class="eq-card__chips"><span><svg class="i"><use href="#i-clock"/></svg>Daily</span><span>22%</span></div>
+        </article>
+      </div>
+    </div>
+
+    <div class="phone phone--hero">
+      <div class="phone__screen">
+        <div class="scr scr--home">
+          <div class="scr__status"><span>10:40</span><span class="scr__sys"><i></i><i></i><i></i></span></div>
+          <div class="scr__top">
+            <div class="scr__row"><b>Easy Equb</b><svg class="i"><use href="#i-bell"/></svg></div>
+            <div class="scr__stats">
+              <div><small>Total Saved</small><b>ETB 1,240</b></div>
+              <div><small>My Equbs</small><b>3 active</b></div>
+            </div>
+            <div class="scr__search"><svg class="i"><use href="#i-search"/></svg>Search equbs...</div>
+          </div>
+          <div class="scr__body">
+            <div class="scr__h"><b>My Equbs</b><span>See All</span></div>
+            <div class="scr__cards">
+              <div class="scr__eq">
+                <div class="scr__eqhead"><b>Office daily</b></div>
+                <small>Daily contribution</small>
+                <strong>ETB 10</strong>
+                <div class="scr__meter"><span style="width:100%"></span></div>
+                <div class="scr__meta"><span>8 / 8 members</span><span>100%</span></div>
+                <div class="scr__paid"><svg class="i"><use href="#i-check"/></svg>Paid · next Oct 24</div>
+              </div>
+              <div class="scr__eq scr__eq--due">
+                <div class="scr__eqhead"><b>Family monthly</b></div>
+                <small>Monthly contribution</small>
+                <strong>ETB 500</strong>
+                <div class="scr__meter"><span style="width:60%"></span></div>
+                <div class="scr__meta"><span>6 / 10 members</span><span>60%</span></div>
+                <div class="scr__pay">Pay now</div>
+              </div>
+            </div>
+            <div class="scr__h"><b>Available Equbs</b><span>Browse</span></div>
+            <div class="scr__avail">
+              <span class="cover cover--sm" style="--c1:#1d5557;--c2:#3b8b8e"><svg class="i"><use href="#i-users"/></svg></span>
+              <div><b>Friends weekly</b><small>Weekly · 4 / 20 members</small></div>
+              <div class="scr__price">ETB 50<span class="scr__join">Join</span></div>
+            </div>
+          </div>
+          <div class="scr__nav"><span class="is-on"><svg class="i"><use href="#i-home"/></svg>Home</span><span><svg class="i"><use href="#i-users"/></svg>Equbs</span><span><svg class="i"><use href="#i-user"/></svg>Profile</span></div>
+        </div>
+      </div>
+    </div>
+    <span class="fab" aria-hidden="true"><svg class="i"><use href="#i-wallet"/></svg>Pay now</span>
+  </div>
+</section>
+
+<!-- ============ 03 · STEPS ============ -->
+<section class="steps" id="how">
+  <div class="steps__wrap">
+    <p class="steps__tag" data-reveal><img src="assets/logo-mark.png" alt="" width="16" height="11">Everything organized in <b>3 steps</b> :</p>
+    <div class="steps__row" data-reveal>
+      <article class="step">
+        <span class="step__n">1</span>
+        <div class="step__art step__art--cards" aria-hidden="true">
+          <div class="mini mini--a"><svg class="i"><use href="#i-clock"/></svg>Daily</div>
+          <div class="mini mini--b"><svg class="i"><use href="#i-users"/></svg>Monthly</div>
+        </div>
+        <h3>Join an equb</h3>
+        <p>Browse equbs by type and cycle. Pick one that fits you and join.</p>
+      </article>
+      <article class="step">
+        <span class="step__n">2</span>
+        <div class="step__art step__art--list" aria-hidden="true">
+          <div class="step__scroll">
+            <div class="row"><span class="dot dot--red"><svg class="i"><use href="#i-alert"/></svg></span><div><b>Neighbours weekly</b><small>Due today</small></div><div class="row__r"><small>Contribution</small><b>ETB 50</b></div></div>
+            <div class="row"><span class="dot dot--teal"><svg class="i"><use href="#i-check"/></svg></span><div><b>Office daily</b><small>Paid · next Oct 24</small></div><div class="row__r"><small>Contribution</small><b>ETB 10</b></div></div>
+            <div class="row"><span class="dot dot--gold"><svg class="i"><use href="#i-calendar"/></svg></span><div><b>Family monthly</b><small>Due Nov 1</small></div><div class="row__r"><small>Contribution</small><b>ETB 500</b></div></div>
+          </div>
+        </div>
+        <h3>Contribute each cycle</h3>
+        <p>See what is due and pay in the app. Your progress updates at once.</p>
+      </article>
+      <article class="step">
+        <span class="step__n">3</span>
+        <div class="step__art step__art--win" aria-hidden="true">
+          <span class="avatar"><i>You</i></span>
+          <span class="swap"><svg class="i"><use href="#i-gift"/></svg></span>
+          <span class="avatar avatar--b"><i>?</i></span>
+        </div>
+        <h3>Win by draw</h3>
+        <p>A fair draw picks the winner each cycle, in the open.</p>
+      </article>
+    </div>
+    <ul class="chips" data-reveal>
+      <li><svg class="i"><use href="#i-cycle"/></svg>Daily to monthly cycles</li>
+      <li><svg class="i"><use href="#i-shield"/></svg>Identity verified</li>
+      <li><svg class="i"><use href="#i-coins"/></svg>Free to download</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 04 · FEATURES (big cards) ============ -->
+<section class="mf" id="features">
+  <header class="head" data-reveal>
+    <h2>More trust in every equb.</h2>
+    <p>Everything you need to run your equb from one phone, with clear numbers for every member.</p>
+  </header>
+  <div class="mf__grid">
+
+    <article class="mfc" data-reveal>
+      <div class="mfc__media mfc__media--light">
+        <div class="guides" aria-hidden="true"><i></i><i></i></div>
+        <span class="pill pill--float"><b class="pdot"></b>100%</span>
+        <div class="widget widget--progress">
+          <div class="widget__head"><b>Office daily</b><span class="tag">Daily</span></div>
+          <div class="widget__amt">ETB 10 <em>/ day</em></div>
+          <div class="bar"><span></span></div>
+          <div class="widget__foot"><span>8 / 8 members paid</span><span>Next Oct 24</span></div>
+        </div>
+      </div>
+      <p class="mfc__text"><b>See every contribution.</b> <span>Track who has paid in each cycle with one clear progress bar.</span></p>
+    </article>
+
+    <article class="mfc" data-reveal>
+      <div class="mfc__media mfc__media--teal">
+        <div class="widget widget--browse">
+          <div class="scr__search scr__search--lg"><svg class="i"><use href="#i-search"/></svg>Search equbs by name...</div>
+          <p class="lbl">Equb type</p>
+          <div class="fchips" data-cycle-a><span class="is-on">All</span><span>Standard</span><span>Personal · 100 Days</span></div>
+          <p class="lbl">Contribution cycle</p>
+          <div class="fchips" data-cycle-b><span class="is-on">All</span><span>Daily</span><span>Weekly</span><span>Bi-Weekly</span><span>Monthly</span></div>
+          <div class="browse-row"><span class="cover cover--sm" style="--c1:#1d5557;--c2:#3b8b8e"><svg class="i"><use href="#i-users"/></svg></span><div><b>Friends weekly</b><small>Weekly · 4 / 20</small></div><div class="scr__price">ETB 50<span class="scr__join">Join</span></div></div>
+        </div>
+      </div>
+      <p class="mfc__text"><b>Find the right equb.</b> <span>Search by name, filter by type and choose the cycle that suits you.</span></p>
+    </article>
+
+    <article class="mfc" data-reveal>
+      <div class="mfc__media mfc__media--dark">
+        <div class="draw" data-draw>
+          <p class="draw__lbl">Draw in progress</p>
+          <div class="draw__grid">
+            <span>Selam</span><span>Abebe</span><span>Hana</span><span>Dawit</span><span>Meron</span><span>Yonas</span>
+          </div>
+          <p class="draw__win" aria-live="polite"><svg class="i"><use href="#i-trophy"/></svg><span data-draw-name>Drawing…</span></p>
+        </div>
+      </div>
+      <p class="mfc__text"><b>Win by draw.</b> <span>Each cycle a draw picks the winner. No favours, no doubt.</span></p>
+    </article>
+
+    <article class="mfc" data-reveal>
+      <div class="mfc__media mfc__media--light">
+        <div class="widget widget--id">
+          <div class="id__avatar"><svg class="i"><use href="#i-user"/></svg></div>
+          <b class="id__name">Selam T.</b>
+          <small class="id__phone">09•• ••• ••97</small>
+          <div class="verified"><span class="verified__ic"><svg class="i"><use href="#i-check"/></svg></span><div><b>Identity Verified</b><small>You can join and contribute to Equbs</small></div></div>
+        </div>
+      </div>
+      <p class="mfc__text"><b>Verify once, join with trust.</b> <span>Every member confirms who they are before they take part.</span></p>
+    </article>
+
+    <article class="mfc" data-reveal>
+      <div class="mfc__media mfc__media--light">
+        <div class="widget widget--due">
+          <div class="due"><div><b>Neighbours weekly</b><small>Weekly contribution</small></div><span class="badge badge--red">Overdue</span></div>
+          <div class="due__amt">ETB 50 <span class="scr__pay">Pay now</span></div>
+          <div class="due due--ok"><div><b>Office daily</b><small>Paid · next Oct 24</small></div><span class="badge badge--ok"><svg class="i"><use href="#i-check"/></svg></span></div>
+        </div>
+      </div>
+      <p class="mfc__text"><b>Never miss a due date.</b> <span>Overdue equbs are flagged and your next payment date is always in view.</span></p>
+    </article>
+
+    <article class="mfc" data-reveal>
+      <div class="mfc__media mfc__media--light">
+        <div class="widget widget--prof">
+          <div class="prow"><svg class="i"><use href="#i-user"/></svg><div><b>Profile</b><small>Manage your profile details</small></div><svg class="i"><use href="#i-right"/></svg></div>
+          <div class="prow"><svg class="i"><use href="#i-lang"/></svg><div><b>Language</b><small>Change language</small></div><svg class="i"><use href="#i-right"/></svg></div>
+          <div class="prow"><svg class="i"><use href="#i-help"/></svg><div><b>Help Center</b><small>Contact our help center</small></div><svg class="i"><use href="#i-right"/></svg></div>
+        </div>
+      </div>
+      <p class="mfc__text"><b>Help is one tap away.</b> <span>Change your language or reach the help center from your profile.</span></p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ 05 · SHOWCASE ============ -->
+<section class="show" id="app">
+  <div class="show__inner">
+    <div class="show__content">
+      <header class="show__head" data-reveal>
+        <h2>Your equb,<br>at a glance.</h2>
+        <p>Three screens cover it all: home, browse and profile.</p>
+      </header>
+      <div class="show__stores" data-reveal>
+        <a class="store" href="https://play.google.com/store/search?q=Easy%20Equb&amp;c=apps" rel="noopener">
+          <svg class="i i--fill"><use href="#i-play"/></svg>
+          <span class="store__copy"><small>Get it on</small><b>Google Play</b></span>
+        </a>
+      </div>
+      <div class="tabs" role="tablist" aria-label="App screens" data-reveal>
+        <div class="tab is-active" data-screen="0">
+          <div class="tab__track"><span class="tab__fill"></span></div>
+          <button type="button" role="tab" aria-selected="true">Home</button>
+          <p>See your total saved, your active equbs and what is due, all on one screen.</p>
+        </div>
+        <div class="tab" data-screen="1">
+          <div class="tab__track"><span class="tab__fill"></span></div>
+          <button type="button" role="tab" aria-selected="false" tabindex="-1">Browse</button>
+          <p>Search equbs by name, filter by type, choose a cycle and join.</p>
+        </div>
+        <div class="tab" data-screen="2">
+          <div class="tab__track"><span class="tab__fill"></span></div>
+          <button type="button" role="tab" aria-selected="false" tabindex="-1">Profile</button>
+          <p>Manage your details, verify your identity, change language and get help.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="show__media" data-reveal>
+      <div class="show__bg"></div>
+      <div class="phone phone--show">
+        <div class="phone__screen">
+          <!-- screen 0: home -->
+          <div class="scr scr--home show__screen is-active" data-s="0">
+            <div class="scr__status"><span>10:40</span><span class="scr__sys"><i></i><i></i><i></i></span></div>
+            <div class="scr__top">
+              <div class="scr__row"><b>Easy Equb</b><svg class="i"><use href="#i-bell"/></svg></div>
+              <div class="scr__stats"><div><small>Total Saved</small><b>ETB 1,240</b></div><div><small>My Equbs</small><b>3 active</b></div></div>
+              <div class="scr__search"><svg class="i"><use href="#i-search"/></svg>Search equbs...</div>
+            </div>
+            <div class="scr__body">
+              <div class="scr__h"><b>My Equbs</b><span>See All</span></div>
+              <div class="scr__cards">
+                <div class="scr__eq"><div class="scr__eqhead"><b>Office daily</b></div><small>Daily contribution</small><strong>ETB 10</strong><div class="scr__meter"><span style="width:100%"></span></div><div class="scr__meta"><span>8 / 8 members</span><span>100%</span></div><div class="scr__paid"><svg class="i"><use href="#i-check"/></svg>Paid · next Oct 24</div></div>
+                <div class="scr__eq scr__eq--due"><div class="scr__eqhead"><b>Family monthly</b></div><small>Monthly contribution</small><strong>ETB 500</strong><div class="scr__meter"><span style="width:60%"></span></div><div class="scr__meta"><span>6 / 10 members</span><span>60%</span></div><div class="scr__pay">Pay now</div></div>
+              </div>
+              <div class="scr__h"><b>Available Equbs</b><span>Browse</span></div>
+              <div class="scr__avail"><span class="cover cover--sm" style="--c1:#1d5557;--c2:#3b8b8e"><svg class="i"><use href="#i-users"/></svg></span><div><b>Friends weekly</b><small>Weekly · 4 / 20 members</small></div><div class="scr__price">ETB 50<span class="scr__join">Join</span></div></div>
+            </div>
+            <div class="scr__nav"><span class="is-on"><svg class="i"><use href="#i-home"/></svg>Home</span><span><svg class="i"><use href="#i-users"/></svg>Equbs</span><span><svg class="i"><use href="#i-user"/></svg>Profile</span></div>
+          </div>
+
+          <!-- screen 1: browse -->
+          <div class="scr scr--browse show__screen" data-s="1">
+            <div class="scr__status"><span>10:40</span><span class="scr__sys"><i></i><i></i><i></i></span></div>
+            <div class="scr__bar"><svg class="i"><use href="#i-left"/></svg><b>Browse Equbs</b></div>
+            <div class="scr__body scr__body--plain">
+              <div class="scr__search scr__search--lg"><svg class="i"><use href="#i-search"/></svg>Search equbs by name...</div>
+              <p class="lbl">Equb type</p>
+              <div class="fchips"><span class="is-on">All</span><span>Standard</span><span>Personal · 100 Days</span></div>
+              <p class="lbl">Contribution cycle</p>
+              <div class="fchips"><span class="is-on">All</span><span>Daily</span><span>Weekly</span><span>Bi-Weekly</span><span>Monthly</span></div>
+              <div class="browse-row"><span class="cover cover--sm" style="--c1:#1d5557;--c2:#3b8b8e"><svg class="i"><use href="#i-users"/></svg></span><div><b>Friends weekly</b><small>Weekly · 4 / 20</small></div><div class="scr__price">ETB 50<span class="scr__join">Join</span></div></div>
+              <div class="browse-row"><span class="cover cover--sm" style="--c1:#e50000;--c2:#ff6a4d"><svg class="i"><use href="#i-coins"/></svg></span><div><b>Office daily</b><small>Daily · 8 / 10</small></div><div class="scr__price">ETB 10<span class="scr__join">Join</span></div></div>
+              <div class="browse-row"><span class="cover cover--sm" style="--c1:#8a6d3b;--c2:#c9a24f"><svg class="i"><use href="#i-home"/></svg></span><div><b>Family monthly</b><small>Monthly · 6 / 10</small></div><div class="scr__price">ETB 500<span class="scr__join">Join</span></div></div>
+            </div>
+          </div>
+
+          <!-- screen 2: profile -->
+          <div class="scr scr--profile show__screen" data-s="2">
+            <div class="scr__status"><span>10:40</span><span class="scr__sys"><i></i><i></i><i></i></span></div>
+            <div class="scr__bar scr__bar--plain"><b>Profile</b></div>
+            <div class="scr__body scr__body--plain">
+              <div class="pcard"><div class="id__avatar"><svg class="i"><use href="#i-user"/></svg></div><b>Selam T.</b><small>09•• ••• ••97</small></div>
+              <div class="verified"><span class="verified__ic"><svg class="i"><use href="#i-check"/></svg></span><div><b>Identity Verified</b><small>You can join and contribute to Equbs</small></div></div>
+              <div class="prow"><svg class="i"><use href="#i-user"/></svg><div><b>Profile</b><small>Manage your profile details</small></div><svg class="i"><use href="#i-right"/></svg></div>
+              <div class="prow"><svg class="i"><use href="#i-lang"/></svg><div><b>Language</b><small>Change language</small></div><svg class="i"><use href="#i-right"/></svg></div>
+              <div class="prow"><svg class="i"><use href="#i-help"/></svg><div><b>Help Center</b><small>Contact our help center</small></div><svg class="i"><use href="#i-right"/></svg></div>
+              <div class="prow prow--out"><b>Logout</b><svg class="i"><use href="#i-logout"/></svg></div>
+            </div>
+            <div class="scr__nav"><span><svg class="i"><use href="#i-home"/></svg>Home</span><span><svg class="i"><use href="#i-users"/></svg>Equbs</span><span class="is-on"><svg class="i"><use href="#i-user"/></svg>Profile</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 · FEATURE GRID ============ -->
+<section class="fg">
+  <header class="head" data-reveal>
+    <h2>Built around how<br>an equb works.</h2>
+    <p>Small details that keep every cycle clear, fair and on time.</p>
+  </header>
+  <div class="fg__grid" data-reveal>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-users"/></svg></span><h3>Join equbs</h3><p>Browse open equbs and join in a few taps.</p></article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-wallet"/></svg></span><h3>Contribute</h3><p>Pay your share each cycle from the app.</p></article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-gift"/></svg></span><h3>Win by draw</h3><p>A draw picks the winner every cycle.</p></article>
+
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-shield"/></svg></span><h3>Safe and transparent</h3><p>Everyone in the equb sees the same progress.</p></article>
+    <article class="fgc fgc--tile">
+      <img src="assets/logo-mark.png" alt="" width="64" height="44">
+      <h3>Digitizing your equb.</h3>
+      <p>The simple, secure and transparent way to save, contribute and win, together.</p>
+    </article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-search"/></svg></span><h3>Smart search</h3><p>Find any equb by name.</p></article>
+
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-filter"/></svg></span><h3>Filter by type</h3><p>Standard or Personal · 100 Days.</p></article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-cycle"/></svg></span><h3>Choose your cycle</h3><p>Daily, weekly, bi-weekly or monthly.</p></article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-coins"/></svg></span><h3>Total saved</h3><p>See what you have saved and how many equbs are active.</p></article>
+
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-calendar"/></svg></span><h3>Due dates</h3><p>Overdue flags and next payment dates.</p></article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-check"/></svg></span><h3>Identity verified</h3><p>Confirm who you are before you join.</p></article>
+    <article class="fgc"><span class="fgc__ic"><svg class="i"><use href="#i-lang"/></svg></span><h3>Your language</h3><p>Change the app language from your profile.</p></article>
+  </div>
+</section>
+
+<!-- ============ 07 · COMPARE ============ -->
+<section class="sm" id="switch">
+  <div class="sm__inner">
+    <header class="sm__head" data-reveal>
+      <h2>Still running your equb<br>on paper or in a chat?</h2>
+      <p><a href="#how">See how it works</a> in three steps. Here is what changes when your equb goes digital.</p>
+    </header>
+    <div class="sm__scroll" data-reveal>
+      <div class="sm__card">
+        <div class="sm__col sm__col--labels">
+          <p class="sm__ch">Question</p>
+          <ul>
+            <li><svg class="i"><use href="#i-wallet"/></svg>Who has paid</li>
+            <li><svg class="i"><use href="#i-gift"/></svg>Picking the winner</li>
+            <li><svg class="i"><use href="#i-shield"/></svg>Who is in the group</li>
+            <li><svg class="i"><use href="#i-calendar"/></svg>Due dates</li>
+            <li><svg class="i"><use href="#i-coins"/></svg>Your total saved</li>
+            <li><svg class="i"><use href="#i-cycle"/></svg>Contribution cycle</li>
+            <li><svg class="i"><use href="#i-users"/></svg>Joining an equb</li>
+          </ul>
+        </div>
+        <div class="sm__col sm__col--eq">
+          <img class="sm__wm" src="assets/logo-mark.png" alt="" width="251" height="170">
+          <div class="sm__eqhead">
+            <div class="sm__brand"><span class="sm__ic"><img src="assets/logo-mark.png" alt="" width="22" height="15"></span><p>Easy Equb <small>2026</small></p></div>
+            <span class="sm__badge">Digital equb</span>
+          </div>
+          <ul>
+            <li>Progress shown live</li>
+            <li>Draw in the app</li>
+            <li>Identity verified</li>
+            <li>Overdue flagged</li>
+            <li>On your home screen</li>
+            <li>Daily to monthly</li>
+            <li>Browse and tap Join</li>
+          </ul>
+          <div class="sm__foot">
+            <a class="sm__btn" href="#get">Get Easy Equb</a>
+            <p>Free on <span>Google Play</span></p>
+          </div>
+        </div>
+        <div class="sm__col sm__col--old">
+          <p class="sm__brand sm__brand--old">Paper or chat <small>today</small></p>
+          <ul>
+            <li>A notebook or a chat</li>
+            <li>Lots drawn by hand</li>
+            <li>Known by word</li>
+            <li>Remembered or chased</li>
+            <li>Added up by hand</li>
+            <li>Set by the organizer</li>
+            <li>Through a friend</li>
+          </ul>
+        </div>
+      </div>
+      <p class="sm__note">This compares Easy Equb with how informal equbs usually run. Your own group may work differently.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 · FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="faq__inner">
+    <div class="faq__left" data-reveal>
+      <span class="faq__tag">FAQ</span>
+      <h2>Answers before<br>you join.</h2>
+    </div>
+    <div class="faq__list" data-reveal>
+      <div class="qa is-open">
+        <button class="qa__q" type="button" aria-expanded="true"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>What is Easy Equb?</span></button>
+        <div class="qa__a"><div><p>Easy Equb is an app that digitizes the traditional equb. You join a group, contribute each cycle and a draw picks the winner. Everything is simple, secure and transparent.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>What is an equb?</span></button>
+        <div class="qa__a"><div><p>An equb is a traditional savings group. Members put in a fixed amount each cycle, and one member receives the pot each round. Easy Equb brings that tradition to your phone.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>How do I join an equb?</span></button>
+        <div class="qa__a"><div><p>Verify your identity in your profile. Then open Browse, pick an equb and tap Join. You can start contributing right away.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>Which equb types and cycles are there?</span></button>
+        <div class="qa__a"><div><p>You can choose a Standard equb or a Personal · 100 Days equb. Contribution cycles are daily, weekly, bi-weekly or monthly. Use the filters in Browse to narrow the list.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>How is the winner chosen?</span></button>
+        <div class="qa__a"><div><p>By draw. A draw picks the winner each cycle, so no one has to decide by hand.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>Why do I need to verify my identity?</span></button>
+        <div class="qa__a"><div><p>Verification helps everyone in an equb know who they are saving with. Once your identity is verified, you can join and contribute to equbs.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>Is the app free to download?</span></button>
+        <div class="qa__a"><div><p>Yes. Easy Equb is free to download from Google Play. Check an equb's details before you join it.</p></div></div>
+      </div>
+      <div class="qa__div"></div>
+      <div class="qa">
+        <button class="qa__q" type="button" aria-expanded="false"><span class="qa__ic"><svg class="i i--plus"><use href="#i-plus"/></svg><svg class="i i--minus"><use href="#i-minus"/></svg></span><span>How do I get help?</span></button>
+        <div class="qa__a"><div><p>Open Profile, then tap Help Center to contact our team. You can also change the app language from the same screen.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 09 · FOOTER ============ -->
+<footer class="ft">
+  <div class="cta" data-reveal>
+    <div class="cta__copy">
+      <h2>Start your first<br>equb today.</h2>
+      <p>Join, contribute and win together.</p>
+      <a class="store store--light" href="https://play.google.com/store/search?q=Easy%20Equb&amp;c=apps" rel="noopener">
+        <svg class="i i--fill"><use href="#i-play"/></svg>
+        <span class="store__copy"><small>Get it on</small><b>Google Play</b></span>
+      </a>
+    </div>
+    <div class="cta__phone" aria-hidden="true">
+      <div class="phone phone--cta"><div class="phone__screen">
+        <div class="scr scr--home">
+          <div class="scr__status"><span>10:40</span><span class="scr__sys"><i></i><i></i><i></i></span></div>
+          <div class="scr__top">
+            <div class="scr__row"><b>Easy Equb</b><svg class="i"><use href="#i-bell"/></svg></div>
+            <div class="scr__stats"><div><small>Total Saved</small><b>ETB 1,240</b></div><div><small>My Equbs</small><b>3 active</b></div></div>
+            <div class="scr__search"><svg class="i"><use href="#i-search"/></svg>Search equbs...</div>
+          </div>
+          <div class="scr__body">
+            <div class="scr__h"><b>My Equbs</b><span>See All</span></div>
+            <div class="scr__cards"><div class="scr__eq"><div class="scr__eqhead"><b>Office daily</b></div><small>Daily contribution</small><strong>ETB 10</strong><div class="scr__meter"><span style="width:100%"></span></div><div class="scr__meta"><span>8 / 8 members</span><span>100%</span></div><div class="scr__paid"><svg class="i"><use href="#i-check"/></svg>Paid · next Oct 24</div></div></div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+
+  <div class="ft__main">
+    <div class="ft__brand">
+      <a class="ft__logo" href="#top"><span class="ft__tile"><img src="assets/logo-mark.png" alt="" width="26" height="18"></span><b>Easy Equb</b></a>
+      <p>The simple, secure and transparent way to save, contribute and win, together.</p>
+    </div>
+    <div class="ft__cols">
+      <div class="ft__col"><h4>Product</h4><a href="#how">How it works</a><a href="#features">Features</a><a href="#app">The app</a><a href="#switch">Why digital</a></div>
+      <div class="ft__col"><h4>Support</h4><a href="#faq">FAQs</a><a href="#faq">Help Center</a><a href="#get">Download</a></div>
+      <div class="ft__col"><h4>Company</h4><a href="#top">Unity Technologies PLC</a><a href="#top">Privacy policy</a><a href="#top">Terms of use</a></div>
+    </div>
+  </div>
+  <div class="ft__legal">
+    <p>© <span data-year>2026</span> Unity Technologies PLC. All rights reserved.</p>
+    <button type="button" data-cookie-open>Cookie settings</button>
+  </div>
+</footer>
+
+<!-- ============ 10 · COOKIE BANNER ============ -->
+<div class="consent" role="dialog" aria-label="Cookie notice" hidden>
+  <svg class="i"><use href="#i-eye"/></svg>
+  <p>We use cookies to improve your experience. <a href="#top">Learn more</a></p>
+  <button class="btn btn--soft btn--xs" type="button" data-consent="decline">Decline</button>
+  <button class="btn btn--dark btn--xs" type="button" data-consent="accept">Accept</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

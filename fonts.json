@@ -1,0 +1,14 @@
+[
+  {
+    "family": "Figtree",
+    "roles": [
+      "body",
+      "display"
+    ],
+    "licence": "free",
+    "licenceName": "SIL Open Font License (Google Fonts)",
+    "install": "next/font/google (Figtree) or npm i @fontsource-variable/figtree",
+    "alternative": null,
+    "note": "Install from Google Fonts or Fontsource, never from the source site."
+  }
+]

@@ -1,0 +1,3986 @@
+{
+ "url": "https://gettakecontrol.app/en/",
+ "idle": [
+  {
+   "path": "main > section.hero.is-revealed:nth-of-type(1)",
+   "property": "--hero-orbit-scroll-scale",
+   "changes": 9,
+   "from": "0.999336",
+   "to": "1.000000",
+   "settleMs": 1240,
+   "lerp": 0.234,
+   "range": 0.001
+  },
+  {
+   "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1)",
+   "property": "--orbit-rotation",
+   "changes": 3,
+   "from": "-106.44395431537008deg",
+   "to": "-120deg",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 3.455
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(1)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.020",
+   "to": "0.006",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.003
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(6)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.039",
+   "to": "0.016",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.005
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(8)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.049",
+   "to": "0.022",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.006
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(10)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.061",
+   "to": "0.029",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.007
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(11)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.067",
+   "to": "0.033",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.008
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(15)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.096",
+   "to": "0.053",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.01
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(17)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.112",
+   "to": "0.065",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.011
+  },
+  {
+   "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2)",
+   "property": "--orbit-rotation",
+   "changes": 3,
+   "from": "-106.44395431537008deg",
+   "to": "-120deg",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 3.455
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > img.hero-group-card__cover-float",
+   "property": "--cover-opacity",
+   "changes": 3,
+   "from": "1.000",
+   "to": "0.360",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.269
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > img.hero-group-card__cover-float",
+   "property": "--cover-shadow-alpha",
+   "changes": 3,
+   "from": "0.039",
+   "to": "0.003",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.007
+  },
+  {
+   "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3)",
+   "property": "--orbit-rotation",
+   "changes": 3,
+   "from": "-106.44395431537008deg",
+   "to": "-120deg",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 3.455
+  },
+  {
+   "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4)",
+   "property": "--orbit-rotation",
+   "changes": 3,
+   "from": "-106.44395431537008deg",
+   "to": "-120deg",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 3.455
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > img.hero-group-card__cover-float",
+   "property": "--cover-shadow-alpha",
+   "changes": 3,
+   "from": "0.081",
+   "to": "0.120",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.01
+  },
+  {
+   "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5)",
+   "property": "--orbit-rotation",
+   "changes": 3,
+   "from": "-106.44395431537008deg",
+   "to": "-120deg",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 3.455
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(1)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.070",
+   "to": "0.119",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.014
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(2)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.064",
+   "to": "0.110",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.013
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(3)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.057",
+   "to": "0.102",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.013
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(4)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.052",
+   "to": "0.094",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.012
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(5)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.046",
+   "to": "0.086",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.012
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(6)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.041",
+   "to": "0.079",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.011
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(7)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.037",
+   "to": "0.072",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.011
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(11)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.022",
+   "to": "0.048",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.008
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(12)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.018",
+   "to": "0.043",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.008
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(16)",
+   "property": "--slice-shade-opacity",
+   "changes": 3,
+   "from": "0.009",
+   "to": "0.026",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 0.006
+  },
+  {
+   "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6)",
+   "property": "--orbit-rotation",
+   "changes": 3,
+   "from": "-106.44395431537008deg",
+   "to": "-120deg",
+   "settleMs": 252,
+   "lerp": null,
+   "range": 3.455
+  }
+ ],
+ "scroll": {
+  "movers": [
+   {
+    "path": "main > section.hero.is-revealed:nth-of-type(1)",
+    "property": "--hero-orbit-scroll-scale",
+    "changes": 15,
+    "from": "1.000000",
+    "to": "0.936398",
+    "settleMs": 2475,
+    "lerp": 0.257,
+    "range": 0.056
+   },
+   {
+    "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1)",
+    "property": "--orbit-rotation",
+    "changes": 9,
+    "from": "-120deg",
+    "to": "-183.67471996146375deg",
+    "settleMs": 2478,
+    "lerp": 0.129,
+    "range": 63.675
+   },
+   {
+    "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2)",
+    "property": "--orbit-rotation",
+    "changes": 9,
+    "from": "-120deg",
+    "to": "-183.67471996146375deg",
+    "settleMs": 2478,
+    "lerp": 0.129,
+    "range": 63.675
+   },
+   {
+    "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3)",
+    "property": "--orbit-rotation",
+    "changes": 9,
+    "from": "-120deg",
+    "to": "-183.67471996146375deg",
+    "settleMs": 2478,
+    "lerp": 0.129,
+    "range": 63.675
+   },
+   {
+    "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4)",
+    "property": "--orbit-rotation",
+    "changes": 9,
+    "from": "-120deg",
+    "to": "-183.67471996146375deg",
+    "settleMs": 2478,
+    "lerp": 0.129,
+    "range": 63.675
+   },
+   {
+    "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5)",
+    "property": "--orbit-rotation",
+    "changes": 9,
+    "from": "-120deg",
+    "to": "-183.67471996146375deg",
+    "settleMs": 2478,
+    "lerp": 0.129,
+    "range": 63.675
+   },
+   {
+    "path": "div.hero-orbit__scaler > div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6)",
+    "property": "--orbit-rotation",
+    "changes": 9,
+    "from": "-120deg",
+    "to": "-183.67471996146375deg",
+    "settleMs": 2478,
+    "lerp": 0.129,
+    "range": 63.675
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(21)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.094",
+    "to": "0.000",
+    "settleMs": 2478,
+    "lerp": 0.718,
+    "range": 0.093
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(22)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.102",
+    "to": "0.000",
+    "settleMs": 2478,
+    "lerp": 0.696,
+    "range": 0.101
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(24)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.119",
+    "to": "0.001",
+    "settleMs": 2478,
+    "lerp": 0.673,
+    "range": 0.117
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+    "property": "--cover-shadow-alpha",
+    "changes": 6,
+    "from": "0.162",
+    "to": "0.000",
+    "settleMs": 2478,
+    "lerp": 0.779,
+    "range": 0.161
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+    "property": "--cover-shadow-detail-alpha",
+    "changes": 6,
+    "from": "0.108",
+    "to": "0.000",
+    "settleMs": 2478,
+    "lerp": 0.778,
+    "range": 0.107
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > img.hero-group-card__cover-float",
+    "property": "--cover-shadow-alpha",
+    "changes": 6,
+    "from": "0.120",
+    "to": "0.155",
+    "settleMs": 2478,
+    "lerp": 0.105,
+    "range": 0.047
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > img.hero-group-card__cover-float",
+    "property": "--cover-shadow-detail-alpha",
+    "changes": 6,
+    "from": "0.080",
+    "to": "0.103",
+    "settleMs": 2478,
+    "lerp": 0.154,
+    "range": 0.032
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(1)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.002",
+    "to": "0.134",
+    "settleMs": 2478,
+    "lerp": 0.615,
+    "range": 0.131
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(2)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.001",
+    "to": "0.125",
+    "settleMs": 2478,
+    "lerp": 0.612,
+    "range": 0.123
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(3)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.001",
+    "to": "0.116",
+    "settleMs": 2478,
+    "lerp": 0.598,
+    "range": 0.114
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(5)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.000",
+    "to": "0.099",
+    "settleMs": 2478,
+    "lerp": 0.593,
+    "range": 0.098
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(24)",
+    "property": "--slice-shade-opacity",
+    "changes": 6,
+    "from": "0.002",
+    "to": "0.009",
+    "settleMs": 2478,
+    "lerp": 0.333,
+    "range": 0.009
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(18)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.072",
+    "to": "0.000",
+    "settleMs": 1017,
+    "lerp": null,
+    "range": 0.071
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(19)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.079",
+    "to": "0.000",
+    "settleMs": 1017,
+    "lerp": null,
+    "range": 0.078
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(20)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.086",
+    "to": "0.000",
+    "settleMs": 1017,
+    "lerp": null,
+    "range": 0.085
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(23)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.110",
+    "to": "0.001",
+    "settleMs": 1017,
+    "lerp": null,
+    "range": 0.108
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(24)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.006",
+    "to": "0.000",
+    "settleMs": 1017,
+    "lerp": null,
+    "range": 0.132
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(3)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.007",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.066
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(4)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.009",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.071
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(5)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.010",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.077
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(9)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.020",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.1
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > img.hero-group-card__cover-float",
+    "property": "--cover-shadow-alpha",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.130",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.103
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > img.hero-group-card__cover-float",
+    "property": "--cover-shadow-detail-alpha",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.086",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.068
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(4)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.001",
+    "to": "0.107",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.091
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(6)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.091",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.08
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(7)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.084",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.075
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(8)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.076",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.068
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(9)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.070",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.064
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(10)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.063",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.058
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(11)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.057",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.053
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(12)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.051",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.048
+   },
+   {
+    "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(13)",
+    "property": "--slice-shade-opacity",
+    "changes": 5,
+    "from": "0.000",
+    "to": "0.046",
+    "settleMs": 2478,
+    "lerp": null,
+    "range": 0.044
+   }
+  ],
+  "settleMs": 2478,
+  "lerp": 0.333
+ },
+ "pointer": [
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(2)",
+   "property": "--slice-shade-opacity",
+   "changes": 9,
+   "from": "0.000",
+   "to": "0.128",
+   "settleMs": 4178,
+   "lerp": 0.053,
+   "range": 0.127
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > img.hero-group-card__cover-float",
+   "property": "--cover-shadow-alpha",
+   "changes": 9,
+   "from": "0.102",
+   "to": "0.153",
+   "settleMs": 4178,
+   "lerp": 0.029,
+   "range": 0.056
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+   "property": "--slice-shade-opacity",
+   "changes": 8,
+   "from": "0.001",
+   "to": "0.137",
+   "settleMs": 4178,
+   "lerp": 0.098,
+   "range": 0.135
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(3)",
+   "property": "--slice-shade-opacity",
+   "changes": 8,
+   "from": "0.000",
+   "to": "0.119",
+   "settleMs": 4178,
+   "lerp": 0.085,
+   "range": 0.118
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(4)",
+   "property": "--slice-shade-opacity",
+   "changes": 8,
+   "from": "0.000",
+   "to": "0.110",
+   "settleMs": 4178,
+   "lerp": 0.074,
+   "range": 0.109
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > img.hero-group-card__cover-float",
+   "property": "--cover-shadow-alpha",
+   "changes": 8,
+   "from": "0.171",
+   "to": "0.000",
+   "settleMs": 4178,
+   "lerp": 0.258,
+   "range": 0.162
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > img.hero-group-card__cover-float",
+   "property": "--cover-shadow-detail-alpha",
+   "changes": 8,
+   "from": "0.114",
+   "to": "0.000",
+   "settleMs": 4178,
+   "lerp": 0.25,
+   "range": 0.108
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > img.hero-group-card__cover-float",
+   "property": "--cover-shadow-detail-alpha",
+   "changes": 8,
+   "from": "0.068",
+   "to": "0.102",
+   "settleMs": 4178,
+   "lerp": 0.4,
+   "range": 0.036
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(24)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.004",
+   "to": "0.010",
+   "settleMs": 4178,
+   "lerp": 0.2,
+   "range": 0.01
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(2)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.014",
+   "to": "0.003",
+   "settleMs": 4178,
+   "lerp": 0.184,
+   "range": 0.008
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(3)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.016",
+   "to": "0.002",
+   "settleMs": 4178,
+   "lerp": 0.429,
+   "range": 0.01
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(6)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.025",
+   "to": "0.001",
+   "settleMs": 4178,
+   "lerp": 0.357,
+   "range": 0.017
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(17)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.085",
+   "to": "0.000",
+   "settleMs": 2491,
+   "lerp": 0.194,
+   "range": 0.066
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(21)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.117",
+   "to": "0.000",
+   "settleMs": 4178,
+   "lerp": 0.527,
+   "range": 0.094
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(22)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.126",
+   "to": "0.000",
+   "settleMs": 4178,
+   "lerp": 0.519,
+   "range": 0.102
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(24)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.000",
+   "to": "0.001",
+   "settleMs": 4178,
+   "lerp": 0.5,
+   "range": 0.118
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(5)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.000",
+   "to": "0.102",
+   "settleMs": 4178,
+   "lerp": 0.059,
+   "range": 0.101
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(6)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.000",
+   "to": "0.094",
+   "settleMs": 4178,
+   "lerp": 0.065,
+   "range": 0.093
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(7)",
+   "property": "--slice-shade-opacity",
+   "changes": 7,
+   "from": "0.000",
+   "to": "0.086",
+   "settleMs": 4178,
+   "lerp": 0.067,
+   "range": 0.085
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(12)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.030",
+   "to": "0.000",
+   "settleMs": 2261,
+   "lerp": null,
+   "range": 0.108
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(16)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.017",
+   "to": "0.000",
+   "settleMs": 2261,
+   "lerp": null,
+   "range": 0.077
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(22)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.005",
+   "to": "0.000",
+   "settleMs": 2491,
+   "lerp": null,
+   "range": 0.138
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(23)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.004",
+   "to": "0.000",
+   "settleMs": 2491,
+   "lerp": null,
+   "range": 0.129
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(24)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.003",
+   "to": "0.000",
+   "settleMs": 2491,
+   "lerp": null,
+   "range": 0.12
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(21)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.002",
+   "to": "0.017",
+   "settleMs": 4178,
+   "lerp": 0.167,
+   "range": 0.017
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(1)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.011",
+   "to": "0.004",
+   "settleMs": 4178,
+   "lerp": null,
+   "range": 0.007
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(4)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.019",
+   "to": "0.001",
+   "settleMs": 2491,
+   "lerp": null,
+   "range": 0.012
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(5)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.022",
+   "to": "0.001",
+   "settleMs": 4178,
+   "lerp": null,
+   "range": 0.014
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(8)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.033",
+   "to": "0.000",
+   "settleMs": 2261,
+   "lerp": 0.286,
+   "range": 0.023
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(10)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.042",
+   "to": "0.000",
+   "settleMs": 2261,
+   "lerp": 0.286,
+   "range": 0.03
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(11)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.047",
+   "to": "0.000",
+   "settleMs": 2261,
+   "lerp": 0.226,
+   "range": 0.034
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(15)",
+   "property": "--slice-shade-opacity",
+   "changes": 6,
+   "from": "0.071",
+   "to": "0.000",
+   "settleMs": 2261,
+   "lerp": 0.2,
+   "range": 0.054
+  }
+ ],
+ "header": null,
+ "navigation": [],
+ "menu": null,
+ "hovers": [
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+   "label": "article.hero-group-card",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.163",
+     "to": "0.162",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.079",
+     "to": "0.080",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.116",
+     "to": "0.119",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.107",
+     "to": "0.110",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.099",
+     "to": "0.102",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.091",
+     "to": "0.094",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.084",
+     "to": "0.086",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.077",
+     "to": "0.079",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.070",
+     "to": "0.072",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.063",
+     "to": "0.065",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.057",
+     "to": "0.059",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.052",
+     "to": "0.053",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.046",
+     "to": "0.048",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.041",
+     "to": "0.043",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.037",
+     "to": "0.038",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.032",
+     "to": "0.033",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.028",
+     "to": "0.029",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.025",
+     "to": "0.026",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.021",
+     "to": "0.022",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.018",
+     "to": "0.019",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.013",
+     "to": "0.014",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.011",
+     "to": "0.012",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.009",
+     "to": "0.010",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.002",
+     "to": "0.001",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.023",
+     "to": "0.022",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.027",
+     "to": "0.026",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.031",
+     "to": "0.029",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.044",
+     "to": "0.043",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.049",
+     "to": "0.048",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.055",
+     "to": "0.053",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.067",
+     "to": "0.065",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.074",
+     "to": "0.072",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.081",
+     "to": "0.079",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.088",
+     "to": "0.086",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.096",
+     "to": "0.094",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.104",
+     "to": "0.102",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.112",
+     "to": "0.110",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.121",
+     "to": "0.119",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "0.410",
+     "to": "0.360",
+     "atMs": 74,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.004",
+     "to": "0.003",
+     "atMs": 74,
+     "count": 1
+    }
+   ],
+   "text": [
+    {
+     "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+     "kind": "typewriter",
+     "sequence": [
+      "T",
+      "Tr",
+      "Tri",
+      "Trip"
+     ],
+     "durationMs": 538,
+     "during": "on hover"
+    }
+   ],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 19212
+    }
+   ],
+   "film": {
+    "frames": [
+     0,
+     499
+    ]
+   }
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(1)",
+   "label": "div.hero-group-card__panel",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-back-cover",
+     "from": "0",
+     "to": "1",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-opacity",
+     "from": "1.000",
+     "to": "0.700",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-back-cover",
+     "from": "0",
+     "to": "1",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-opacity",
+     "from": "1.000",
+     "to": "0.700",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.008",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "0.273",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.002",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.001",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.106",
+     "to": "0.002",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.123",
+     "to": "0.162",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.082",
+     "to": "0.108",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.123",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.114",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.106",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.098",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.090",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.082",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.075",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.068",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.062",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.056",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.050",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.045",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.040",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.036",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.031",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.028",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.024",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.021",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.018",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.015",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.013",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.011",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.009",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    }
+   ],
+   "text": [],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 23382
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+   "label": "div.hero-group-card__header",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.001",
+     "to": "0.109",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.010",
+     "to": "0.001",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.012",
+     "to": "0.001",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.019",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.022",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.026",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.029",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.043",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.048",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.053",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.065",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.072",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.079",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.086",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.094",
+     "to": "0.001",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.102",
+     "to": "0.001",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.110",
+     "to": "0.001",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.119",
+     "to": "0.002",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "0.360",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.108",
+     "to": "0.002",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.120",
+     "to": "0.162",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.080",
+     "to": "0.108",
+     "atMs": 253,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.119",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.110",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.102",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.094",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.086",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.079",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.072",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.065",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.053",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.048",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.043",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.000",
+     "atMs": 253,
+     "count": 4
+    }
+   ],
+   "text": [],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 27732
+    }
+   ],
+   "film": {
+    "frames": [
+     0,
+     483,
+     865
+    ]
+   }
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+   "label": "span.hero-group-card__cover-placeholder",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.120",
+     "to": "0.170",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.080",
+     "to": "0.113",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.119",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.110",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.102",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.094",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.086",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.079",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.072",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.065",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.053",
+     "to": "0.137",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.048",
+     "to": "0.128",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.043",
+     "to": "0.119",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.110",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.102",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.029",
+     "to": "0.094",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.026",
+     "to": "0.086",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.022",
+     "to": "0.079",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.019",
+     "to": "0.072",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.016",
+     "to": "0.065",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.059",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.006",
+     "to": "0.038",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.001",
+     "to": "0.017",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.010",
+     "to": "0.000",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.012",
+     "to": "0.001",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.001",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.026",
+     "to": "0.003",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.029",
+     "to": "0.004",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.005",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.006",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.043",
+     "to": "0.008",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.048",
+     "to": "0.010",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.053",
+     "to": "0.012",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.014",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.065",
+     "to": "0.016",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.072",
+     "to": "0.019",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.079",
+     "to": "0.022",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.086",
+     "to": "0.026",
+     "atMs": 774,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.094",
+     "to": "0.029",
+     "atMs": 774,
+     "count": 3
+    }
+   ],
+   "text": [
+    {
+     "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+     "kind": "typewriter",
+     "sequence": [
+      "Hango",
+      "Hangou",
+      "Hangout"
+     ],
+     "durationMs": 381,
+     "during": "on hover"
+    }
+   ],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 31997
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(1)",
+   "label": "div.hero-group-card__info",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.118",
+     "to": "0.119",
+     "atMs": 13,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.101",
+     "to": "0.102",
+     "atMs": 13,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.093",
+     "to": "0.094",
+     "atMs": 13,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "0.362",
+     "to": "0.360",
+     "atMs": 13,
+     "count": 1
+    },
+    {
+     "path": "main > section.hero.is-revealed:nth-of-type(1) > div.hero__showcase:nth-of-type(2) > div.hero-orbit",
+     "property": "data-active-index",
+     "from": "0",
+     "to": "0",
+     "atMs": 13,
+     "count": 1
+    }
+   ],
+   "text": [
+    {
+     "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+     "kind": "typewriter",
+     "sequence": [
+      "T",
+      "Tr",
+      "Tri",
+      "Trip"
+     ],
+     "durationMs": 166,
+     "during": "on hover"
+    }
+   ],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 34127
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+   "label": "div.hero-group-card__title-row",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "1.000",
+     "to": "0.360",
+     "atMs": 52,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.087",
+     "to": "0.003",
+     "atMs": 52,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.058",
+     "to": "0.002",
+     "atMs": 52,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.117",
+     "to": "0.108",
+     "atMs": 52,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-opacity",
+     "from": "0.278",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.134",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.125",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.116",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.107",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.099",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.091",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.084",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.077",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.070",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.063",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.057",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-back-cover",
+     "from": "1",
+     "to": "0",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-opacity",
+     "from": "0.700",
+     "to": "1.000",
+     "atMs": 52,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.052",
+     "to": "0.000",
+     "atMs": 52,
+     "count": 1
+    }
+   ],
+   "text": [
+    {
+     "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+     "kind": "typewriter",
+     "sequence": [
+      "H",
+      "Ha",
+      "Han",
+      "Hang",
+      "Hango"
+     ],
+     "durationMs": 626,
+     "during": "on hover"
+    }
+   ],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 36014
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+   "label": "span.hero-group-card__title",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "0.360",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.003",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.002",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.108",
+     "to": "0.002",
+     "atMs": 5,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.120",
+     "to": "0.162",
+     "atMs": 5,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.080",
+     "to": "0.108",
+     "atMs": 5,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.119",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.110",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.102",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.094",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.086",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.079",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.072",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.065",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.053",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.048",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.043",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.029",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.026",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.022",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.019",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.016",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.012",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.010",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.008",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.006",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 5
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.008",
+     "to": "0.001",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.010",
+     "to": "0.001",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.012",
+     "to": "0.001",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.016",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.019",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.022",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.026",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.029",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.000",
+     "atMs": 5,
+     "count": 4
+    }
+   ],
+   "text": [],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 37880
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+   "label": "div.hero-group-card__avatars",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.008",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.010",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.012",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.019",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.026",
+     "to": "0.001",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.003",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.043",
+     "to": "0.004",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.048",
+     "to": "0.005",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.007",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.072",
+     "to": "0.011",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.079",
+     "to": "0.013",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.086",
+     "to": "0.015",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.094",
+     "to": "0.018",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.102",
+     "to": "0.021",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.110",
+     "to": "0.024",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.119",
+     "to": "0.028",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-alpha",
+     "from": "0.162",
+     "to": "0.082",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.108",
+     "to": "0.055",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(4) > img.hero-group-card__cover-float",
+     "property": "--cover-shadow-detail-alpha",
+     "from": "0.080",
+     "to": "0.118",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.065",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.059",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.053",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.038",
+     "to": "0.000",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.033",
+     "to": "0.132",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.029",
+     "to": "0.123",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.022",
+     "to": "0.106",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.019",
+     "to": "0.098",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.016",
+     "to": "0.090",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.014",
+     "to": "0.082",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.012",
+     "to": "0.075",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.010",
+     "to": "0.068",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.008",
+     "to": "0.062",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(5) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.006",
+     "to": "0.056",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.001",
+     "to": "0.029",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.019",
+     "atMs": 708,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-back-cover",
+     "from": "0",
+     "to": "1",
+     "atMs": 861,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-opacity",
+     "from": "1.000",
+     "to": "0.700",
+     "atMs": 861,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.049",
+     "atMs": 861,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-back-cover",
+     "from": "0",
+     "to": "1",
+     "atMs": 861,
+     "count": 1
+    }
+   ],
+   "text": [],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 39632
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+   "label": "div.hero-group-card__footer",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.007",
+     "to": "0.006",
+     "atMs": 7,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.034",
+     "to": "0.033",
+     "atMs": 7,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > img.hero-group-card__cover-float",
+     "property": "--cover-opacity",
+     "from": "0.361",
+     "to": "0.360",
+     "atMs": 7,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.118",
+     "to": "0.119",
+     "atMs": 7,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(6) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.101",
+     "to": "0.102",
+     "atMs": 7,
+     "count": 1
+    },
+    {
+     "path": "main > section.hero.is-revealed:nth-of-type(1) > div.hero__showcase:nth-of-type(2) > div.hero-orbit",
+     "property": "data-active-index",
+     "from": "3",
+     "to": "3",
+     "atMs": 7,
+     "count": 1
+    }
+   ],
+   "text": [
+    {
+     "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+     "kind": "typewriter",
+     "sequence": [
+      "T",
+      "Tr",
+      "Tri",
+      "Trip"
+     ],
+     "durationMs": 759,
+     "during": "on hover"
+    }
+   ],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 41489
+    }
+   ],
+   "film": null
+  },
+  {
+   "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+   "label": "p.hero-group-card__balance",
+   "changes": [
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.004",
+     "to": "0.110",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.003",
+     "to": "0.102",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.002",
+     "to": "0.094",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.002",
+     "to": "0.086",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.001",
+     "to": "0.072",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.059",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.043",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.038",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.033",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.026",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.000",
+     "to": "0.019",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(1) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.001",
+     "to": "0.006",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.003",
+     "to": "0.002",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-shade-opacity",
+     "from": "0.004",
+     "to": "0.001",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(3)",
+     "property": "--slice-shade-opacity",
+     "from": "0.005",
+     "to": "0.001",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(4)",
+     "property": "--slice-shade-opacity",
+     "from": "0.006",
+     "to": "0.001",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(5)",
+     "property": "--slice-shade-opacity",
+     "from": "0.008",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(6)",
+     "property": "--slice-shade-opacity",
+     "from": "0.009",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(7)",
+     "property": "--slice-shade-opacity",
+     "from": "0.011",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(8)",
+     "property": "--slice-shade-opacity",
+     "from": "0.013",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(9)",
+     "property": "--slice-shade-opacity",
+     "from": "0.016",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(10)",
+     "property": "--slice-shade-opacity",
+     "from": "0.018",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(11)",
+     "property": "--slice-shade-opacity",
+     "from": "0.021",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(12)",
+     "property": "--slice-shade-opacity",
+     "from": "0.025",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(13)",
+     "property": "--slice-shade-opacity",
+     "from": "0.028",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(14)",
+     "property": "--slice-shade-opacity",
+     "from": "0.032",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(15)",
+     "property": "--slice-shade-opacity",
+     "from": "0.036",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(16)",
+     "property": "--slice-shade-opacity",
+     "from": "0.041",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(17)",
+     "property": "--slice-shade-opacity",
+     "from": "0.046",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(18)",
+     "property": "--slice-shade-opacity",
+     "from": "0.051",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(19)",
+     "property": "--slice-shade-opacity",
+     "from": "0.057",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(20)",
+     "property": "--slice-shade-opacity",
+     "from": "0.063",
+     "to": "0.000",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(21)",
+     "property": "--slice-shade-opacity",
+     "from": "0.070",
+     "to": "0.001",
+     "atMs": 37,
+     "count": 2
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(22)",
+     "property": "--slice-shade-opacity",
+     "from": "0.076",
+     "to": "0.001",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(23)",
+     "property": "--slice-shade-opacity",
+     "from": "0.084",
+     "to": "0.001",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(2) > div.hero-group-card__slice:nth-of-type(24)",
+     "property": "--slice-shade-opacity",
+     "from": "0.091",
+     "to": "0.002",
+     "atMs": 37,
+     "count": 3
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-opacity",
+     "from": "0.425",
+     "to": "0.700",
+     "atMs": 37,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(1)",
+     "property": "--slice-shade-opacity",
+     "from": "0.131",
+     "to": "0.006",
+     "atMs": 37,
+     "count": 4
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-back-cover",
+     "from": "0",
+     "to": "1",
+     "atMs": 37,
+     "count": 1
+    },
+    {
+     "path": "div.hero-orbit__viewport:nth-of-type(1) > div.hero-orbit__stage > div.hero-orbit__ring > article.hero-group-card:nth-of-type(3) > div.hero-group-card__slice:nth-of-type(2)",
+     "property": "--slice-opacity",
+     "from": "1.000",
+     "to": "0.700",
+     "atMs": 37,
+     "count": 1
+    }
+   ],
+   "text": [
+    {
+     "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+     "kind": "typewriter",
+     "sequence": [
+      "K",
+      "Ki",
+      "Kid"
+     ],
+     "durationMs": 412,
+     "during": "on hover"
+    }
+   ],
+   "animations": [
+    {
+     "path": "div.app-showcase__content > div.app-showcase__tabs > div.app-showcase__item.is-active > p.app-showcase__tab-desc",
+     "kind": "animation",
+     "name": "app-showcase-desc-in",
+     "property": "opacity, transform",
+     "durationMs": 450,
+     "delayMs": 0,
+     "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+     "keyframes": "[{\"offset\":0,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"0\",\"transform\":\"translateY(6px)\"},{\"offset\":1,\"easing\":\"cubic-bezier(0.22, 1, 0.36, 1)\",\"opacity\":\"1\",\"transform\":\"translateY(0px)\"}]",
+     "infinite": false,
+     "startedAt": 43203
+    }
+   ],
+   "film": null
+  }
+ ],
+ "canvases": [],
+ "text": [
+  {
+   "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+   "kind": "typewriter",
+   "sequence": [
+    "C",
+    "Co",
+    "Cou",
+    "Coup"
+   ],
+   "durationMs": 873,
+   "during": "on its own"
+  },
+  {
+   "path": "div.hero__showcase:nth-of-type(2) > div.hero-orbit > div.hero-orbit__scaler > div.hero-orbit__tag:nth-of-type(2) > span",
+   "kind": "scramble",
+   "sequence": [
+    "Couple",
+    "T",
+    "Tr",
+    "Tri",
+    "Trip"
+   ],
+   "durationMs": 1465,
+   "during": "while scrolling"
+  }
+ ],
+ "notes": [
+  "navigation: cdpSession.send: Target page, context or browser has been closed",
+  "menu: skipped, out of time"
+ ]
+}

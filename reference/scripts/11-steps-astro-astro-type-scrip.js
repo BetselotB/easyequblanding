@@ -1,0 +1,1 @@
+import{s as r}from"./lazy-lottie.CGdotor4.js";const a="[data-step-lottie]",n=".step__illu-lottie";function c(t){if(t.dataset.lottieReady==="true")return;const e=t.querySelector(n),o=e?.dataset.lottieSrc;!e||!o||(t.dataset.lottieReady="true",r(t,e,o,{loop:!0,threshold:.35}))}function i(){document.querySelectorAll(a).forEach(c)}i();document.addEventListener("astro:page-load",i);

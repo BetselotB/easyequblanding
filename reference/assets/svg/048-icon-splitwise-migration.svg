@@ -1,0 +1,10 @@
+<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="16" height="16">
+<g transform="scale(0.666667)" fill="none">
+<path d="M16.9093 3H21.0003V7.0909" stroke="rgb(105, 105, 104)" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M7.0909 21H3V16.9091" stroke="rgb(105, 105, 104)" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M21.0003 16.9091V21H16.9093" stroke="rgb(105, 105, 104)" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M3 7.0909V3H7.0909" stroke="rgb(105, 105, 104)" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M7.6362 10.9091H16.3635" stroke="rgb(105, 105, 104)" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M16.9088 7.0909H7.0906V16.9091L8.3178 16.0909L9.5451 16.9091L10.7724 16.0909L11.9997 16.9091L13.2269 16.0909L14.4542 16.9091L15.6814 16.0909L16.9088 16.9091V7.0909Z" stroke="rgb(105, 105, 104)" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+</svg>

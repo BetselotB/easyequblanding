@@ -1,0 +1,1615 @@
+{
+ "note": "Everything here is the source page as rendered at 1440px, minus its words (filler of the same length). Copy from these files rather than redrawing.",
+ "viewport": 1440,
+ "lang": "en",
+ "sections": [
+  {
+   "file": "sections/01-nav.html",
+   "name": "01-nav",
+   "tag": "header",
+   "bytes": 29483
+  },
+  {
+   "file": "sections/02-hero.html",
+   "name": "02-hero",
+   "tag": "section",
+   "bytes": 415930
+  },
+  {
+   "file": "sections/03-steps.html",
+   "name": "03-steps",
+   "tag": "section",
+   "bytes": 1059131
+  },
+  {
+   "file": "sections/04-features.html",
+   "name": "04-features",
+   "tag": "section",
+   "bytes": 529320
+  },
+  {
+   "file": "sections/05-showcase.html",
+   "name": "05-showcase",
+   "tag": "section",
+   "bytes": 13595
+  },
+  {
+   "file": "sections/06-features.html",
+   "name": "06-features",
+   "tag": "section",
+   "bytes": 27528
+  },
+  {
+   "file": "sections/07-splitwise-migration.html",
+   "name": "07-splitwise-migration",
+   "tag": "section",
+   "bytes": 17593
+  },
+  {
+   "file": "sections/08-faq.html",
+   "name": "08-faq",
+   "tag": "section",
+   "bytes": 15038
+  },
+  {
+   "file": "sections/09-footer.html",
+   "name": "09-footer",
+   "tag": "footer",
+   "bytes": 38851
+  },
+  {
+   "file": "sections/10-banner.html",
+   "name": "10-banner",
+   "tag": "div",
+   "bytes": 5282
+  }
+ ],
+ "svgs": [
+  {
+   "file": "reference/assets/svg/001-logo-nav.svg",
+   "role": "logo",
+   "width": 165.1,
+   "height": 26,
+   "label": null,
+   "section": "01-nav",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(177, 47, 0)",
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/002-icon-nav.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "01-nav",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/003-icon-hero.svg",
+   "role": "icon",
+   "width": 34,
+   "height": 34,
+   "label": null,
+   "section": "02-hero",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/004-icon-hero.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "02-hero",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/005-icon-hero.svg",
+   "role": "icon",
+   "width": 34,
+   "height": 34,
+   "label": null,
+   "section": "02-hero",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/006-icon-hero.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "02-hero",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/007-icon-steps.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "03-steps",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(177, 47, 0)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/008-illustration-steps.svg",
+   "role": "illustration",
+   "width": 273.3,
+   "height": 144.5,
+   "label": null,
+   "section": "03-steps",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)",
+    "rgb(255, 122, 74)",
+    "rgb(255, 255, 255)",
+    "rgb(69, 69, 67)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/009-illustration-steps.svg",
+   "role": "illustration",
+   "width": 272.3,
+   "height": 144,
+   "label": null,
+   "section": "03-steps",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)",
+    "rgb(255, 122, 74)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/010-icon-steps.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "03-steps",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/011-icon-steps.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "03-steps",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/012-icon-steps.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "03-steps",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/013-icon-features.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/014-illustration-features.svg",
+   "role": "illustration",
+   "width": 157,
+   "height": 38,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/015-icon-features.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/016-icon-features.svg",
+   "role": "icon",
+   "width": 26,
+   "height": 17,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 123, 75)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/017-illustration-features.svg",
+   "role": "illustration",
+   "width": 372,
+   "height": 108,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)",
+    "rgb(234, 234, 231)",
+    "rgb(18, 18, 17)",
+    "rgb(126, 126, 125)",
+    "rgb(52, 198, 88)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/018-icon-features.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/019-illustration-features.svg",
+   "role": "illustration",
+   "width": 320,
+   "height": 303,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)",
+    "rgb(18, 18, 17)",
+    "rgb(126, 126, 125)",
+    "rgb(234, 234, 232)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/020-icon-features.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/021-icon-features.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/022-illustration-features.svg",
+   "role": "illustration",
+   "width": 146.8,
+   "height": 162.8,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/023-icon-features.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/024-icon-features.svg",
+   "role": "icon",
+   "width": 26,
+   "height": 17,
+   "label": null,
+   "section": "04-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 123, 75)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/025-icon-showcase.svg",
+   "role": "icon",
+   "width": 34,
+   "height": 34,
+   "label": null,
+   "section": "05-showcase",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/026-icon-showcase.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "05-showcase",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/027-icon-showcase.svg",
+   "role": "icon",
+   "width": 34,
+   "height": 34,
+   "label": null,
+   "section": "05-showcase",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/028-icon-showcase.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "05-showcase",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/029-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/030-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/031-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/032-icon-features.svg",
+   "role": "icon",
+   "width": 26,
+   "height": 17,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 123, 75)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/033-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/034-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/035-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/036-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/037-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/038-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/039-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/040-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/041-icon-features.svg",
+   "role": "icon",
+   "width": 20,
+   "height": 20,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/042-icon-features.svg",
+   "role": "icon",
+   "width": 28,
+   "height": 28,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 123, 75)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/043-icon-features.svg",
+   "role": "icon",
+   "width": 14,
+   "height": 14,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/044-icon-features.svg",
+   "role": "icon",
+   "width": 14,
+   "height": 14,
+   "label": null,
+   "section": "06-features",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/045-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(105, 105, 104)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/046-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(105, 105, 104)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/047-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(105, 105, 104)",
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/048-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(105, 105, 104)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/049-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(105, 105, 104)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/050-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(105, 105, 104)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/051-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 123, 75)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/052-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 27,
+   "height": 27,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(177, 47, 0)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/053-icon-splitwise-migration.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "07-splitwise-migration",
+   "animated": false,
+   "copies": 7,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/054-icon-faq.svg",
+   "role": "icon",
+   "width": 14,
+   "height": 14,
+   "label": null,
+   "section": "08-faq",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/055-icon-faq.svg",
+   "role": "icon",
+   "width": 11.9,
+   "height": 11.9,
+   "label": null,
+   "section": "08-faq",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/056-icon-faq.svg",
+   "role": "icon",
+   "width": 11.9,
+   "height": 11.9,
+   "label": null,
+   "section": "08-faq",
+   "animated": false,
+   "copies": 7,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/057-icon-faq.svg",
+   "role": "icon",
+   "width": 14,
+   "height": 14,
+   "label": null,
+   "section": "08-faq",
+   "animated": false,
+   "copies": 7,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/058-logo-footer.svg",
+   "role": "logo",
+   "width": 36,
+   "height": 36,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(177, 47, 0)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/059-icon-footer.svg",
+   "role": "icon",
+   "width": 34,
+   "height": 34,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/060-icon-footer.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/061-icon-footer.svg",
+   "role": "icon",
+   "width": 34,
+   "height": 34,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/062-icon-footer.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(18, 18, 17)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/063-logo-footer.svg",
+   "role": "logo",
+   "width": 127,
+   "height": 20,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(177, 47, 0)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/064-icon-footer.svg",
+   "role": "icon",
+   "width": 26,
+   "height": 17,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 123, 75)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/065-icon-footer.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/066-icon-footer.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/067-icon-footer.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/068-icon-footer.svg",
+   "role": "icon",
+   "width": 16,
+   "height": 16,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/069-icon-footer.svg",
+   "role": "icon",
+   "width": 12,
+   "height": 12,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/070-icon-footer.svg",
+   "role": "icon",
+   "width": 49,
+   "height": 14,
+   "label": null,
+   "section": "09-footer",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(127, 127, 126)"
+   ]
+  },
+  {
+   "file": "reference/assets/svg/071-icon-banner.svg",
+   "role": "icon",
+   "width": 18,
+   "height": 18,
+   "label": null,
+   "section": "10-banner",
+   "animated": false,
+   "copies": 1,
+   "colors": [
+    "rgb(41, 41, 39)"
+   ]
+  }
+ ],
+ "images": [
+  {
+   "file": "reference/assets/images/002-app-store-takecontrol-qr-code.png",
+   "from": "https://gettakecontrol.app/assets/stores/app-store-takecontrol-qr-code.png",
+   "bytes": 9733,
+   "width": 200,
+   "height": 200
+  },
+  {
+   "file": "reference/assets/images/003-play-store-takecontrol-qr-code.png",
+   "from": "https://gettakecontrol.app/assets/stores/play-store-takecontrol-qr-code.png",
+   "bytes": 9923,
+   "width": 200,
+   "height": 200
+  },
+  {
+   "file": "reference/assets/images/004-take-control-app-en.webp",
+   "from": "https://gettakecontrol.app/assets/home/TakeControlAppEN.webp",
+   "bytes": 119914,
+   "width": 513,
+   "height": 878
+  },
+  {
+   "file": "reference/assets/images/005-hero-group-caret.svg",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-caret.svg",
+   "bytes": 250,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/006-hero-avatar.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-avatar-m3.webp",
+   "bytes": 1352,
+   "width": 64,
+   "height": 64
+  },
+  {
+   "file": "reference/assets/images/007-hero-avatar.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-avatar-w1.webp",
+   "bytes": 1684,
+   "width": 64,
+   "height": 64
+  },
+  {
+   "file": "reference/assets/images/008-hero-avatar.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-avatar-m1.webp",
+   "bytes": 1518,
+   "width": 64,
+   "height": 64
+  },
+  {
+   "file": "reference/assets/images/009-hero-group-clock.svg",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-clock.svg",
+   "bytes": 537,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/010-hero-group-chart-pie.svg",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-chart-pie.svg",
+   "bytes": 1018,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/011-hero-group-cover.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-cover.webp",
+   "bytes": 7096,
+   "width": 136,
+   "height": 136
+  },
+  {
+   "file": "reference/assets/images/012-hero-group-barbecue.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-barbecue.webp",
+   "bytes": 11528,
+   "width": 160,
+   "height": 160
+  },
+  {
+   "file": "reference/assets/images/013-hero-group-settled.svg",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-settled.svg",
+   "bytes": 278,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/014-hero-avatar.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-avatar-w3.webp",
+   "bytes": 1610,
+   "width": 64,
+   "height": 64
+  },
+  {
+   "file": "reference/assets/images/015-hero-group-couple.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-couple.webp",
+   "bytes": 9786,
+   "width": 160,
+   "height": 160
+  },
+  {
+   "file": "reference/assets/images/016-hero-avatar.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-avatar-w4.webp",
+   "bytes": 1446,
+   "width": 64,
+   "height": 64
+  },
+  {
+   "file": "reference/assets/images/017-hero-group-europe.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-europe.webp",
+   "bytes": 28786,
+   "width": 300,
+   "height": 300
+  },
+  {
+   "file": "reference/assets/images/018-hero-avatar.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-avatar-w2.webp",
+   "bytes": 1540,
+   "width": 64,
+   "height": 64
+  },
+  {
+   "file": "reference/assets/images/019-hero-group-kids.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-kids.webp",
+   "bytes": 10366,
+   "width": 160,
+   "height": 160
+  },
+  {
+   "file": "reference/assets/images/020-hero-group-friends.webp",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-friends.webp",
+   "bytes": 8460,
+   "width": 160,
+   "height": 160
+  },
+  {
+   "file": "reference/assets/images/021-hero-group-drink.svg",
+   "from": "https://gettakecontrol.app/assets/home/hero-group-drink.svg",
+   "bytes": 405,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/022-pattern-budget.png",
+   "from": "https://gettakecontrol.app/assets/home/pattern-budget.png?v=2",
+   "bytes": 26611,
+   "width": 947,
+   "height": 803
+  },
+  {
+   "file": "reference/assets/images/023-budgets-en.svg",
+   "from": "https://gettakecontrol.app/assets/home/BudgetsEN.svg",
+   "bytes": 73267,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/024-voice-registration.webp",
+   "from": "https://gettakecontrol.app/assets/home/Voice%20Registration%20Image.webp",
+   "bytes": 40046,
+   "width": 944,
+   "height": 800
+  },
+  {
+   "file": "reference/assets/images/026-offline.webp",
+   "from": "https://gettakecontrol.app/assets/home/Offline%20Image.webp",
+   "bytes": 81614,
+   "width": 942,
+   "height": 800
+  },
+  {
+   "file": "reference/assets/images/028-pattern-repeat.png",
+   "from": "https://gettakecontrol.app/assets/home/pattern-repeat.png",
+   "bytes": 25603,
+   "width": 1007,
+   "height": 802
+  },
+  {
+   "file": "reference/assets/images/029-pattern-security.webp",
+   "from": "https://gettakecontrol.app/assets/home/pattern-security.webp",
+   "bytes": 30834,
+   "width": 944,
+   "height": 800
+  },
+  {
+   "file": "reference/assets/images/030-en.webp",
+   "from": "https://gettakecontrol.app/assets/home/img-editEN.webp",
+   "bytes": 104302,
+   "width": 813,
+   "height": 604
+  },
+  {
+   "file": "reference/assets/images/031-scan.webp",
+   "from": "https://gettakecontrol.app/assets/home/img-scan.webp",
+   "bytes": 69696,
+   "width": 944,
+   "height": 800
+  },
+  {
+   "file": "reference/assets/images/032-group-en.webp",
+   "from": "https://gettakecontrol.app/assets/home/groupEN.webp?v=4",
+   "bytes": 118118,
+   "width": 800,
+   "height": 1575
+  },
+  {
+   "file": "reference/assets/images/033-widget-illustration-en.webp",
+   "from": "https://gettakecontrol.app/assets/home/WidgetIllustrationEN.webp",
+   "bytes": 18408,
+   "width": 952,
+   "height": 800
+  },
+  {
+   "file": "reference/assets/images/034-pattern-take-control.svg",
+   "from": "https://gettakecontrol.app/assets/home/PatternTakeControl.svg",
+   "bytes": 2473,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/035-cta.webp",
+   "from": "https://gettakecontrol.app/assets/home/CTA%20Image.webp",
+   "bytes": 114856,
+   "width": 1149,
+   "height": 822
+  },
+  {
+   "file": "reference/assets/images/036-chatgpt.svg",
+   "from": "https://gettakecontrol.app/assets/home/ai/chatgpt.svg",
+   "bytes": 2835,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/037-claude.svg",
+   "from": "https://gettakecontrol.app/assets/home/ai/claude.svg",
+   "bytes": 6563,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/038-gemini.svg",
+   "from": "https://gettakecontrol.app/assets/home/ai/gemini.svg",
+   "bytes": 1406,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/039-perplexity.svg",
+   "from": "https://gettakecontrol.app/assets/home/ai/perplexity.svg",
+   "bytes": 2875,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/040-grok.svg",
+   "from": "https://gettakecontrol.app/assets/home/ai/grok.svg",
+   "bytes": 2322,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/041-favicon.ico",
+   "from": "https://gettakecontrol.app/favicon.ico",
+   "bytes": 15086,
+   "width": null,
+   "height": null
+  },
+  {
+   "file": "reference/assets/images/042-favicon.png",
+   "from": "https://gettakecontrol.app/favicon.png",
+   "bytes": 2861,
+   "width": 48,
+   "height": 48
+  },
+  {
+   "file": "reference/assets/images/043-favicon-take-control.webp",
+   "from": "https://gettakecontrol.app/assets/home/Favicon-TakeControl.webp",
+   "bytes": 15758,
+   "width": 512,
+   "height": 512
+  },
+  {
+   "file": "reference/assets/images/044-favicon-take-control.png",
+   "from": "https://gettakecontrol.app/assets/home/Favicon-TakeControl.png",
+   "bytes": 87738,
+   "width": 512,
+   "height": 512
+  },
+  {
+   "file": "reference/assets/images/045-apple-touch-icon.png",
+   "from": "https://gettakecontrol.app/apple-touch-icon.png",
+   "bytes": 17143,
+   "width": 180,
+   "height": 180
+  },
+  {
+   "file": "reference/assets/images/046-inline.png",
+   "from": "inline",
+   "bytes": 63451,
+   "width": 221,
+   "height": 167
+  },
+  {
+   "file": "reference/assets/images/047-inline.png",
+   "from": "inline",
+   "bytes": 46730,
+   "width": 223,
+   "height": 170
+  },
+  {
+   "file": "reference/assets/images/048-inline.png",
+   "from": "inline",
+   "bytes": 48210,
+   "width": 207,
+   "height": 207
+  },
+  {
+   "file": "reference/assets/images/049-inline.png",
+   "from": "inline",
+   "bytes": 50062,
+   "width": 207,
+   "height": 207
+  },
+  {
+   "file": "reference/assets/images/050-inline.png",
+   "from": "inline",
+   "bytes": 12200,
+   "width": 568,
+   "height": 129
+  },
+  {
+   "file": "reference/assets/images/051-inline.png",
+   "from": "inline",
+   "bytes": 7226,
+   "width": 121,
+   "height": 121
+  },
+  {
+   "file": "reference/assets/images/052-inline.png",
+   "from": "inline",
+   "bytes": 5561,
+   "width": 120,
+   "height": 120
+  },
+  {
+   "file": "reference/assets/images/053-inline.png",
+   "from": "inline",
+   "bytes": 15831,
+   "width": 204,
+   "height": 204
+  },
+  {
+   "file": "reference/assets/images/054-inline.png",
+   "from": "inline",
+   "bytes": 9319,
+   "width": 204,
+   "height": 204
+  },
+  {
+   "file": "reference/assets/images/055-inline.png",
+   "from": "inline",
+   "bytes": 23402,
+   "width": 204,
+   "height": 204
+  }
+ ],
+ "fonts": [
+  {
+   "family": "Figtree",
+   "weight": "400 700",
+   "style": "normal",
+   "files": [
+    "assets/fonts/001-figtree-latin.woff2"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "file": "reference/assets/media/025-falando-ao-celular.mp4",
+   "from": "https://gettakecontrol.app/assets/home/falando%20ao%20celular.mp4?v=3",
+   "bytes": 205880
+  },
+  {
+   "file": "reference/assets/media/027-subindo-montanha.mp4",
+   "from": "https://gettakecontrol.app/assets/home/subindo%20montanha.mp4?v=3",
+   "bytes": 508793
+  }
+ ],
+ "icons": [
+  {
+   "rel": "icon",
+   "sizes": "48x48",
+   "file": "reference/assets/images/041-favicon.ico",
+   "from": "https://gettakecontrol.app/favicon.ico"
+  },
+  {
+   "rel": "icon",
+   "sizes": "32x32",
+   "file": "reference/assets/images/042-favicon.png",
+   "from": "https://gettakecontrol.app/favicon.png"
+  },
+  {
+   "rel": "icon",
+   "sizes": "512x512",
+   "file": "reference/assets/images/043-favicon-take-control.webp",
+   "from": "https://gettakecontrol.app/assets/home/Favicon-TakeControl.webp"
+  },
+  {
+   "rel": "icon",
+   "sizes": "512x512",
+   "file": "reference/assets/images/044-favicon-take-control.png",
+   "from": "https://gettakecontrol.app/assets/home/Favicon-TakeControl.png"
+  },
+  {
+   "rel": "apple-touch-icon",
+   "sizes": "180x180",
+   "file": "reference/assets/images/045-apple-touch-icon.png",
+   "from": "https://gettakecontrol.app/apple-touch-icon.png"
+  }
+ ],
+ "cssVars": {
+  "--font-family": "\"Figtree\", sans-serif",
+  "--color-brand-primary": "#465a54",
+  "--color-brand-primary-dark": "#252f2c",
+  "--color-brand-primary-light": "#657671",
+  "--color-brand-secondary": "#ff7b4b",
+  "--color-brand-secondary-dark": "#eb5b52",
+  "--color-surface-0": "#fafaf9",
+  "--color-surface-1": "#f7f7f6",
+  "--color-surface-2": "#ebebe6",
+  "--color-surface-3": "#e2e1da",
+  "--color-gray-100": "#f7f7f6",
+  "--color-gray-150": "#f0f0ee",
+  "--color-gray-200": "#eaeae7",
+  "--color-gray-300": "#d9d9d6",
+  "--color-gray-400": "#babab9",
+  "--color-gray-500": "#696968",
+  "--color-gray-600": "#666665",
+  "--color-gray-700": "#454543",
+  "--color-gray-800": "#121211",
+  "--color-text-primary": "#292927",
+  "--color-text-secondary": "#666665",
+  "--color-white": "#ffffff",
+  "--color-black": "#000000",
+  "--color-success": "#34c759",
+  "--color-warning": "#ff4d4d",
+  "--radius-04": "4px",
+  "--radius-08": "8px",
+  "--radius-12": "12px",
+  "--radius-16": "16px",
+  "--radius-24": "24px",
+  "--radius-32": "32px",
+  "--radius-full": "999px",
+  "--space-02": "2px",
+  "--space-04": "4px",
+  "--space-06": "6px",
+  "--space-08": "8px",
+  "--space-12": "12px",
+  "--space-16": "16px",
+  "--space-24": "24px",
+  "--space-32": "32px",
+  "--space-40": "40px",
+  "--space-48": "48px",
+  "--space-64": "64px",
+  "--space-80": "80px",
+  "--space-128": "128px",
+  "--layout-inline": "24px",
+  "--text-12": "12px",
+  "--text-14": "14px",
+  "--text-16": "16px",
+  "--text-18": "18px",
+  "--text-20": "20px",
+  "--text-28": "28px",
+  "--text-36": "36px",
+  "--text-42": "42px",
+  "--text-56": "56px",
+  "--text-62": "62px",
+  "--leading-tight": "-.01em",
+  "--section-head-max": "560px",
+  "--section-title-size": "42px",
+  "--section-title-line-height": "48px",
+  "--section-subtitle-size": "20px",
+  "--section-subtitle-line-height": "24px",
+  "--color-page": "#eaeae7",
+  "--color-dark": "#121211",
+  "--color-dark-card": "#1c1c1a"
+ },
+ "scripts": [
+  {
+   "file": "reference/scripts/01-inline.js",
+   "from": "inline",
+   "bytes": 3141
+  },
+  {
+   "file": "reference/scripts/02-inline.js",
+   "from": "inline",
+   "bytes": 2369
+  },
+  {
+   "file": "reference/scripts/03-inline.js",
+   "from": "inline",
+   "bytes": 2015
+  },
+  {
+   "file": "reference/scripts/04-inline.js",
+   "from": "inline",
+   "bytes": 967
+  },
+  {
+   "file": "reference/scripts/05-inline.js",
+   "from": "inline",
+   "bytes": 960
+  },
+  {
+   "file": "reference/scripts/06-inline.js",
+   "from": "inline",
+   "bytes": 1248
+  },
+  {
+   "file": "reference/scripts/07-inline.js",
+   "from": "inline",
+   "bytes": 3141
+  },
+  {
+   "file": "reference/scripts/08-inline.js",
+   "from": "inline",
+   "bytes": 4026
+  },
+  {
+   "file": "reference/scripts/09-herocarousel-astro-astro-typ.js",
+   "from": "https://gettakecontrol.app/_astro/HeroCarousel.astro_astro_type_script_index_0_lang.Da1CaXk-.js",
+   "bytes": 4837
+  },
+  {
+   "file": "reference/scripts/10-inline.js",
+   "from": "inline",
+   "bytes": 1406
+  },
+  {
+   "file": "reference/scripts/11-steps-astro-astro-type-scrip.js",
+   "from": "https://gettakecontrol.app/_astro/Steps.astro_astro_type_script_index_0_lang.BHCFVsFD.js",
+   "bytes": 380
+  },
+  {
+   "file": "reference/scripts/12-mainfeatures-astro-astro-typ.js",
+   "from": "https://gettakecontrol.app/_astro/MainFeatures.astro_astro_type_script_index_0_lang.aL_PqvqQ.js",
+   "bytes": 3362
+  },
+  {
+   "file": "reference/scripts/13-inline.js",
+   "from": "inline",
+   "bytes": 1999
+  },
+  {
+   "file": "reference/scripts/14-inline.js",
+   "from": "inline",
+   "bytes": 2603
+  },
+  {
+   "file": "reference/scripts/15-inline.js",
+   "from": "inline",
+   "bytes": 674
+  },
+  {
+   "file": "reference/scripts/16-inline.js",
+   "from": "inline",
+   "bytes": 2661
+  },
+  {
+   "file": "reference/scripts/17-inline.js",
+   "from": "inline",
+   "bytes": 495
+  },
+  {
+   "file": "reference/scripts/18-inline.js",
+   "from": "inline",
+   "bytes": 251
+  },
+  {
+   "file": "reference/scripts/19-beacon-min.js",
+   "from": "https://static.cloudflareinsights.com/beacon.min.js",
+   "bytes": 31853
+  },
+  {
+   "file": "reference/scripts/20-inline.js",
+   "from": "inline",
+   "bytes": 921
+  }
+ ],
+ "libraries": [],
+ "skipped": [],
+ "notes": [
+  "film 1 (Scripted div: 44 moving parts (--orbit-rotation, --cover-shadow-alpha, --cover-shadow-detail-alpha, --slice-shade-opacity)) skipped: out of time",
+  "film 2 (Scripted div: 3 moving parts (transform)) skipped: out of time",
+  "film 3 (Scripted drawing: 3 moving parts (transform, opacity)) skipped: out of time",
+  "film 4 (Looping drawing: 4 moving parts (transform, opacity)) skipped: out of time",
+  "film 5 (Loop: mfc-budget-float) skipped: out of time",
+  "film 6 (Player: video) skipped: out of time",
+  "film 7 (Player: video) skipped: out of time",
+  "film 8 (Reveal: +is-visible) skipped: out of time",
+  "control states skipped: out of time"
+ ]
+}
